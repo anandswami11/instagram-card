@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Inspiration&family=Josefin+Sans:ital,wght@1,300&family=Jost:ital,wght@1,300&family=League+Spartan:wght@400;500&family=Roboto:wght@400;500&family=Signika&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 239, 241);
+}
+.containor{
+    width: 1100px;
+     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+   
+}
+
+.img1{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 20px 0px;
+    background-color: white;
+
+}
+.img1 img{
+    width: 100%;
+    float: left;
+    padding: 20px 30px;
+}
+.name{
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(67, 204, 67);
+    font-family: 'Archivo Black', sans-serif;
+}
+.infor{
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.icon{
+    
+    font-size: 33px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.text{
+    width: 100%;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+@media screen and (max-width: 1200px){
+    .containor{
+     width: 90%;
+    }
+
+    .img1{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+ .containor{
+    width: 80%;
+ } 
+ 
+ 
+.img1 {
+    width: 46%;
+}
+
+
+.img1 img{
+    width: 100%;
+    margin: 20px 0px;
+    float: left;
+    text-align: center;
+   
+}
+}
+
+@media screen and (max-width: 528px){
+.containor{
+    width: 90%;
+    margin-top: 0px;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.img1 img{
+    width: 100%;
+}
+
+.name{
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.infor{
+    padding-bottom: 10px;
+}
+.icon{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+}
